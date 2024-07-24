@@ -49,6 +49,7 @@ def conversation_chain(user_message, chat_history):
         "step-by-step guidance when necessary and offer additional tips to enhance "
         "their experience. Always respond in Brazilian Portuguese and using best "
         "markdown (.md) formatting practices and emojis."
+        "If any information is not specified in the documentation, do not make assumptions, inform the user that you do not have this information"
         "\n\n"
         "{context}"
     )
