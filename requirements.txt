@@ -7,3 +7,4 @@ langchain-openai==0.1.17
 sentence-transformers==3.0.1
 faiss-gpu==1.7.2
 streamlit==1.36.0
+langchain-huggingface==0.0.3
