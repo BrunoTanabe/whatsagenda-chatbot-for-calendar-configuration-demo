@@ -60,7 +60,7 @@ css = '''
 ai_template = '''
 <div class="chat-message bot">
     <div class="avatar">
-        <img src="https://i.ibb.co/JdjgxHL/ai-profile-photo.png">
+        <img src="./app/static/ai_profile_photo.png">
     </div>
     <div class="message">{{MSG}}</div>
 </div>
@@ -69,7 +69,7 @@ ai_template = '''
 human_template = '''
 <div class="chat-message user">
     <div class="avatar">
-        <img src="https://i.ibb.co/nRsvtWs/human-profile-photo.png">
+        <img src="./app/static/human_profile_photo.png">
     </div>    
     <div class="message">{{MSG}}</div>
 </div>
