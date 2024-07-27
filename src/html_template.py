@@ -1,5 +1,12 @@
 # html_template.py: Script para criar os templates de HTML para a interface do chatbot Aila
 
+hide_st_style = '''
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+'''
+
 css = '''
 <style>
 .chat-message {
