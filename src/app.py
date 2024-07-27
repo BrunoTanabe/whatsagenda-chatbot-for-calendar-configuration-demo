@@ -22,8 +22,6 @@ def generate_page():
     )
     st.write(css, unsafe_allow_html=True)
     
-    st.markdown(hide_st_style, unsafe_allow_html=True)
-    
     with st.sidebar:
         st.image("./src/assets/vertical_logo.png", use_column_width=True)
         st.subheader("", divider="orange")

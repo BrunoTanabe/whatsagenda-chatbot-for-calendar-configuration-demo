@@ -208,7 +208,8 @@ NOTE: Run the above commands in the project's root directory.
 - Currently, the user can send a new message while the model is still responding to the previous request, which usually breaks the application. It would be useful to implement a mechanism that prevents the user from sending a new message while the model is still responding to the previous request.
 
 ## ❗ Important Note
-If you wish to use your own database, simply create it using the `scripts/vectorstore_create.py` file and modify the `src/functions.py` file to use your database.
+- If you wish to use your own database, simply create it using the `scripts/vectorstore_create.py` file and modify the `src/functions.py` file to use your database.
+- The app runs on `localhost:8501`, but you can change the port in the `.streamlit/config.toml` file.
 
 ## 📜 License
 

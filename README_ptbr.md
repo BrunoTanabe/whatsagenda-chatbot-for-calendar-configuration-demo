@@ -208,7 +208,8 @@ NOTA: Execute os comandos acima na pasta principal do projeto.
 - Atualmente, o usuário pode mandar uma nova mensagem enquanto o modelo ainda está respondendo a solicitação anterior, isso normalmente quebra a aplicação, seria interessante implementar um mecanismo que impeça o usuário de mandar uma nova mensagem enquanto o modelo ainda está respondendo a solicitação anterior. 
 
 ## ❗ Nota Importante
-Se você desejar usar sua própria base de dados basta cria-la utilizando o arquivo  substituir o arquivo `scripts/vectorstore_create.py` e alterar o arquivo `src/functions.py` para que ele utilize a sua base de dados.
+- Se você desejar usar sua própria base de dados basta cria-la utilizando o arquivo  substituir o arquivo `scripts/vectorstore_create.py` e alterar o arquivo `src/functions.py` para que ele utilize a sua base de dados.
+- O app é executado em `localhost:8501`, mas você pode alterar a porta no arquivo `.streamlit/config.toml`.
 
 ## 📜 Licença
 

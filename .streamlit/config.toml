@@ -8,3 +8,13 @@ font="sans serif"
 
 [server]
 enableStaticServing = true
+
+[logger]
+level="error"
+
+[client]
+showErrorDetails = false
+toolbarMode = "viewer"
+
+[browser]
+serverPort = 8501
