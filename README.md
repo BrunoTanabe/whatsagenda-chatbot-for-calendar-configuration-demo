@@ -46,6 +46,7 @@ The main objective of this chatbot is to simplify and optimize the scheduling co
 
 The project is organized as follows:
 
+- `.streamlit/`: Contains Streamlit configuration files.
 - `config/`: Contains configuration files, such as environment variables.
 - `data/`: Data and storage files.
 - `docs/`: Relevant documentation and user guides.
@@ -64,6 +65,7 @@ The project is organized as follows:
 
 ```
 whatsagenda-chatbot-for-calendar-configuration/
+├── .streamlit/
 ├── config/
 │   ├── .env
 │   └── .env.example
@@ -82,10 +84,12 @@ whatsagenda-chatbot-for-calendar-configuration/
 │   └── vectorstore_create.py
 ├── src/
 │   ├── assets/
-│   |   ├── ai_profile_photo.png
-│   |   ├── favicon.ico
-│   |   ├── human_profile_photo.png
-|   |   └── vertical_logo.png
+│   ├── assets/
+│   │   ├── favicon.ico
+│   │   └── vertical_logo.png
+│   ├── static/
+│   │   ├── ai_profile_photo.png
+│   │   └── human_profile_photo.png
 │   ├── app.py
 │   ├── functions.py
 │   ├── html_templates.py
